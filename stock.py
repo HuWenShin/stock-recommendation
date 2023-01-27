@@ -5,7 +5,7 @@ Created on Mon Nov 16 13:46:35 2020
 """
 headline = input()  # news title file
 ndict = input()  # keyword dictionary file
-compcat = input()  # company industry file
+compcat = input()  # company category file
 crit = input().split(',')
 target = crit[0]  # target industry stock
 targetq = int(crit[1])  # target amount
