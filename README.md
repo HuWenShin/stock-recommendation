@@ -1,4 +1,4 @@
 # stock-recommendation
-Analyze news title keywords to recommend stock
-sample input
-sample output
+Analyze news title keywords to recommend stock <br>
+sample input <br>
+sample output <br>
