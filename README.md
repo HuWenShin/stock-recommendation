@@ -13,7 +13,7 @@ Analyze news title keywords to recommend stock <br>
 聯發科購買3張 <br>
 台積電購買1張 <br>
 
-###Sample 2
+### Sample 2
 **input:** <br>
 /assisting_data/news_title.txt <br>
 /assisting_data/news_dict.txt <br>
