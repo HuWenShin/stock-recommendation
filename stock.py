@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
+
 """
 Created on Mon Nov 16 13:46:35 2020
 @author: Ruby
 """
+
 headline = input()  # news title file
 ndict = input()  # keyword dictionary file
 compcat = input()  # company category file
@@ -10,6 +12,7 @@ crit = input().split(',')
 target = crit[0]  # target industry stock
 targetq = int(crit[1])  # target amount
 rquant = crit[2].split(':')  # amount allocation
+
 for r in range(len(rquant)):
     rquant[r] = int(rquant[r])
 fh0 = open(headline, 'r', encoding='utf-8')
@@ -71,6 +74,7 @@ sorted_comp = sorted_comp[:len(rquant)]
 finalbuy = dict()
 for i in sorted_comp:
     finalbuy[i[0]] = 0
+
 while targetq >= 0:
     for c in range(len(sorted_comp)):
         # if expected buy amount more than allocated stock amount
@@ -84,6 +88,7 @@ while targetq >= 0:
         if targetq < 0:
             break
 
+# print result
 if target not in stocktype:
     print('NO_MATCH')
 else:
