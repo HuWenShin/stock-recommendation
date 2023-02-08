@@ -13,7 +13,7 @@ If there is no company in the input category, print NO_MATCH. Otherwise, print t
     /assisting_data/news_dict.txt <br>
     /assisting_data/company_category.txt <br>
     半導體股,12,4:2:1 <br>
-<br>
+
 **output:** <br>
 
     日月光購買8張 <br>
