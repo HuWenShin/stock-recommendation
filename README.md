@@ -9,28 +9,28 @@ If there is no company in the input category, print NO_MATCH. Otherwise, print t
 ### Sample 1
 **input:** <br>
 
-    /assisting_data/news_title.txt <br>
-    /assisting_data/news_dict.txt <br>
-    /assisting_data/company_category.txt <br>
-    半導體股,12,4:2:1 <br>
+    /assisting_data/news_title.txt
+    /assisting_data/news_dict.txt
+    /assisting_data/company_category.txt
+    半導體股,12,4:2:1
 
 **output:** <br>
 
-    日月光購買8張 <br>
-    聯發科購買3張 <br>
-    台積電購買1張 <br>
+    日月光購買8張
+    聯發科購買3張
+    台積電購買1張
 
 ### Sample 2
 **input:** <br>
 
-    /assisting_data/news_title.txt <br>
-    /assisting_data/news_dict.txt <br>
-    /assisting_data/company_category.txt <br>
-    生技股,35,7:5:3:2:1 <br>
-<br>
+    /assisting_data/news_title.txt
+    /assisting_data/news_dict.txt
+    /assisting_data/company_category.txt
+    生技股,35,7:5:3:2:1
+
 **output:** <br>
 
-    葡萄王購買15張 <br>
-    永信購買10張 <br>
-    國光生購買6張 <br>
-    杏輝購買4張 <br>
+    葡萄王購買15張
+    永信購買10張
+    國光生購買6張
+    杏輝購買4張
